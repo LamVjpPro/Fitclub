@@ -4,6 +4,8 @@ import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
 import Reasons from './components/Reasons/Reasons';
 import Testtimonials from './components/Testimonials/Testtimonials';
+import Join from './components/Join/Join';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Reasons/>
           <Plans/>
           <Testtimonials/>
+          <Join/>
+          <Footer/>
     </div>
   );
 }
